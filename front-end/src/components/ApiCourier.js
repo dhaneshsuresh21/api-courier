@@ -1,4 +1,6 @@
 import react from 'react';
+import React from 'react';
+
 
 import { createContext, useState } from 'react';
 import Heading from './Heading';

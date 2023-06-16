@@ -1,4 +1,6 @@
 import { useState, useContext, useEffect } from "react";
+import React from 'react';
+
 import { ThemeContext } from "../contexts/ThemeContext";
 
 const KeyValueValuePair = ({ keyName, valueName, index, queryParamsList, setQueryParamsList }) => {

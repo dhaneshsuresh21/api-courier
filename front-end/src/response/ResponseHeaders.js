@@ -1,4 +1,6 @@
 import { useState , useContext } from 'react';
+import React from 'react';
+
 import { ResponseHeadersContext } from '../contexts/ResponseHeadersContext';
 
 import { ThemeContext } from '../contexts/ThemeContext';

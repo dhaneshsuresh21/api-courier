@@ -1,4 +1,6 @@
 import { useState } from "react";
+import React from 'react';
+
 import QueryParams from "./QueryParams";
 import RequestHeaders from "./RequestHeaders";
 import JsonDiv from "./JsonDiv";

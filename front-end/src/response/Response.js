@@ -1,4 +1,6 @@
 import { useState, useContext } from "react";
+import React from 'react';
+
 import ResponseData from "./ResponseData";
 import ResponseHeaders from "./ResponseHeaders";
 import ResponseHeading from "../components/ResponseHeading";

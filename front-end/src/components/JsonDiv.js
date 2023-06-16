@@ -1,4 +1,6 @@
 import { useState , useContext } from "react";
+import React from 'react';
+
 import { JsonContext } from "../contexts/JsonContext";
 import { ThemeContext } from "../contexts/ThemeContext";
 

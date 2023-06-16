@@ -13,9 +13,10 @@ app.use(cors());
 
 const PORT = process.env.PORT || 3001;
 const REDIS_PORT = process.env.REDIS_PORT;
+const REDIS_CLIENT_PASSWORD = process.env.REDIS_CLIENT_PASSWORD;
 
 const client = redis.createClient({
-  password: 'Redis@123',
+  password: REDIS_CLIENT_PASSWORD,
   socket: {
     host: 'redis-11077.c9.us-east-1-4.ec2.cloud.redislabs.com',
     port: REDIS_PORT

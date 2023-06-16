@@ -35,7 +35,7 @@ function ApiCourier() {
 
     const [queryParamsList, setQueryParamsList] = useState([]);
     const [requestHeaders, setRequestHeadersList] = useState([]);
-    const [json, setJson] = useState(null);
+    const [json, setJson] = useState("");
 
     const [responseData, setResponseData] = useState("");
     const [responseHeaders, setResponseHeaders] = useState("");

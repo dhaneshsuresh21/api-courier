@@ -157,7 +157,7 @@ const RequestSection = () => {
         console.log(requestData);
 
         const startRequestTime = Date.now();
-        await axios.get('http://localhost:3001/request', { params: requestData })
+        await axios.get('https://api-courier.onrender.com/request', { params: requestData })
             .then(response => {
                 const endRequestTime = Date.now();
                 setResponseTime(endRequestTime - startRequestTime);

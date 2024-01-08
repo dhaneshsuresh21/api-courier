@@ -12,13 +12,13 @@ app.use(cors());
 // redis://default:Redis@123@redis-11077.c9.us-east-1-4.ec2.cloud.redislabs.com:11077
 
 const PORT = process.env.PORT || 3001;
-const REDIS_PORT = process.env.REDIS_PORT;
+const REDIS_PORT = 12720;
 const REDIS_CLIENT_PASSWORD = process.env.REDIS_CLIENT_PASSWORD;
 
 const client = redis.createClient({
   password: REDIS_CLIENT_PASSWORD,
   socket: {
-    host: 'redis-11077.c9.us-east-1-4.ec2.cloud.redislabs.com',
+    host: 'redis-12720.c267.us-east-1-4.ec2.cloud.redislabs.com',
     port: REDIS_PORT
   }
 });
